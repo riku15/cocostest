@@ -200,7 +200,8 @@
     "_objFlags": 3932160,
     "node": {
       "__id__": 2
-    }
+    },
+    "_fitHeight": false
   },
   {
     "__type__": "cc.Node",
@@ -520,7 +521,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
+      "width": 74.46,
       "height": 40
     },
     "_components": [
@@ -649,7 +650,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
+      "width": 87.81,
       "height": 40
     },
     "_components": [
