@@ -1,0 +1,41 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "loadItem",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "loadItem",
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "y": 0.5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 97.87,
+      "height": 40
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": -250,
+      "y": -25
+    },
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ]
+  },
+  {
+    "__type__": "e4f88adp3hERoJ48DZ2PSAl",
+    "node": {
+      "__id__": 1
+    },
+    "_useOriginalSize": false,
+    "_N$verticalAlign": 1,
+    "_N$textKey": "res/prefabs/loadItem.prefab.1"
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "TouchInput",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 14
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_parent": {
+      "__id__": 1
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 960,
+      "height": 640
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 5
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": 480,
+      "y": 320
+    },
+    "_id": "c8725B+SrxDPJkbCr54l850",
+    "_components": [
+      {
+        "__id__": 11
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Background",
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 57,
+      "g": 61,
+      "b": 64
+    },
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1500,
+      "height": 640
+    },
+    "_components": [
+      {
+        "__id__": 4
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 3
+    },
+    "_spriteFrame": {
+      "__uuid__": "0aa0b36c-c4a9-4ce2-ab3b-efede708e6d4"
+    },
+    "_sizeMode": 0
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "touchLocationDisplay",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "height": 40
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": 200
+    },
+    "_components": [
+      {
+        "__id__": 6
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Label",
+    "node": {
+      "__id__": 5
+    },
+    "_useOriginalSize": false,
+    "_fontSize": 25,
+    "_N$string": "",
+    "_N$horizontalAlign": 1
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "sprite",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 68,
+      "height": 71
+    },
+    "_components": [
+      {
+        "__id__": 8
+      }
+    ]
+  },
+  {
+    "__type__": "cc.Sprite",
+    "node": {
+      "__id__": 7
+    },
+    "_spriteFrame": {
+      "__uuid__": "0467443e-6fb8-4d7b-a34f-57b3e5c149fb"
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Tips",
+    "_parent": {
+      "__id__": 2
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 434.4444444444444,
+      "height": 44.44444444444444
+    },
+    "_position": {
+      "__type__": "cc.Vec2",
+      "y": -150
+    },
+    "_components": [
+      {
+        "__id__": 10
+      }
+    ]
+  },
+  {
+    "__type__": "e4f88adp3hERoJ48DZ2PSAl",
+    "node": {
+      "__id__": 9
+    },
+    "_useOriginalSize": false,
+    "_N$string": "Try touching anywhere.",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_N$textKey": "cases/03_gameplay/01_player_control/TouchInput.fire.10"
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_objFlags": 1835008,
+    "node": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SpriteFollowTouch",
+    "_parent": {
+      "__id__": 1
+    },
+    "_id": "76528hFx3BOPKNgJbX5XWsE",
+    "_components": [
+      {
+        "__id__": 13
+      }
+    ]
+  },
+  {
+    "__type__": "90aed86Xu1DZoaevFdcthY3",
+    "node": {
+      "__id__": 12
+    },
+    "touchLocationDisplay": {
+      "__id__": 6
+    },
+    "follower": {
+      "__id__": 7
+    },
+    "followSpeed": 200
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Instruction",
+    "_parent": {
+      "__id__": 1
+    },
+    "_id": "dfe5646WrlMa5Un+1usdHlF",
+    "_components": [
+      {
+        "__id__": 15
+      }
+    ]
+  },
+  {
+    "__type__": "6a871gy73FDLap3Eje/2h6i",
+    "node": {
+      "__id__": 14
+    },
+    "text": "## 点击/触摸输入使用说明\n\n点击 play 按钮预览游戏，使用鼠标或触屏点击并拖拽到游戏视窗内的任意位置，绿色角色会向点击或触摸位置移动。\n\n同时屏幕上方还会显示用户最后一次点击或拖拽所在的屏幕坐标位置。\n\n在浏览器预览时，请确认游戏视窗处于激活状态（点击游戏视窗区域），才能正确获取输入事件。\n\n查看 SpriteFollowTouch.js 脚本，了解监听鼠标或触屏输入事件的脚本书写方法。"
+  }
+]
