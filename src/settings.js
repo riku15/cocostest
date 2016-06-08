@@ -1,5 +1,5 @@
 _CCSettings = {
-    "platform": "web-mobile",
+    "platform": "runtime",
     "groupList": [
         "Default",
         "Background",
@@ -595,11 +595,6 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "28275995-c6bb-4db7-8c7a-8cfc1853abfe": [
-                "res/textures/star",
-                "cc.SpriteFrame",
-                1
-            ],
             "6aff97f1-ff94-4582-9422-f3eb1670dc44": [
                 "res/textures/filled/filled_h_fg",
                 "cc.SpriteFrame",
@@ -620,9 +615,10 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "e24fa342-815a-4478-b9db-ed592e7c0293": [
-                "res/imported/particle/atom.plist",
-                "cc.ParticleAsset"
+            "28275995-c6bb-4db7-8c7a-8cfc1853abfe": [
+                "res/textures/star",
+                "cc.SpriteFrame",
+                1
             ],
             "23eb8387-ca49-4121-be68-56054ee539d8": [
                 "res/textures/sheep/sheep_run_0",
@@ -647,6 +643,10 @@ _CCSettings = {
                 "res/textures/tiled/ground",
                 "cc.SpriteFrame",
                 1
+            ],
+            "e24fa342-815a-4478-b9db-ed592e7c0293": [
+                "res/imported/particle/atom.plist",
+                "cc.ParticleAsset"
             ],
             "cb79e92b-2b6b-4445-91cc-6276f7496ddc": [
                 "res/textures/ui/style2/btn_normal",
@@ -711,11 +711,6 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "bf867cae-8a21-4fff-9dad-d21b5098a1a6": [
-                "res/textures/content",
-                "cc.SpriteFrame",
-                1
-            ],
             "fa9f2200-78ba-4e24-9b4a-48a7d2da2e07": [
                 "res/textures/ui/style2/scrollview_bar",
                 "cc.SpriteFrame",
@@ -731,13 +726,14 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "bf867cae-8a21-4fff-9dad-d21b5098a1a6": [
+                "res/textures/content",
+                "cc.SpriteFrame",
+                1
+            ],
             "a8accd2e-6622-4c31-8a1e-4db5f2b568b5": [
                 "res/prefabs/item0.prefab",
                 "cc.Prefab"
-            ],
-            "7b92981b-aaea-4c77-b86d-0142991ac334": [
-                "res/cocosvideo.mp4",
-                "cc.RawAsset"
             ],
             "7ccb784f-7c51-4a0b-a59e-e95da40f3013": [
                 "res/atlas/sheep",
@@ -752,6 +748,15 @@ _CCSettings = {
                 "res/animation/sheep_run.anim",
                 "cc.AnimationClip"
             ],
+            "7b92981b-aaea-4c77-b86d-0142991ac334": [
+                "res/cocosvideo.mp4",
+                "cc.RawAsset"
+            ],
+            "0467443e-6fb8-4d7b-a34f-57b3e5c149fb": [
+                "res/textures/monster-icon/GreenMonster",
+                "cc.SpriteFrame",
+                1
+            ],
             "0439d97a-4924-4764-9b12-aea48bb17072": [
                 "res/textures/monster-icon/PurpleMonster",
                 "cc.SpriteFrame",
@@ -762,14 +767,13 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "0467443e-6fb8-4d7b-a34f-57b3e5c149fb": [
-                "res/textures/monster-icon/GreenMonster",
-                "cc.SpriteFrame",
-                1
-            ],
             "99ce2773-c288-4d67-9868-27bb8d5e9ea9": [
                 "res/textures/gold.png",
                 "cc.Texture2D"
+            ],
+            "9b0754b9-bbfc-4259-8e63-91f3436f8679": [
+                "res/animation/customProperty/customAnim.anim",
+                "cc.AnimationClip"
             ],
             "ee942c08-c2a8-421e-bfbe-498229084afe": [
                 "res/animation/animEvent/step_1.anim",
@@ -785,10 +789,6 @@ _CCSettings = {
             ],
             "c6322309-085e-49d1-a5e3-40d71598fd1f": [
                 "res/animation/animEvent/step_4.anim",
-                "cc.AnimationClip"
-            ],
-            "9b0754b9-bbfc-4259-8e63-91f3436f8679": [
-                "res/animation/customProperty/customAnim.anim",
                 "cc.AnimationClip"
             ],
             "4bb25e27-63ac-4ec7-aec9-d89d1cc5b619": [
@@ -898,20 +898,16 @@ _CCSettings = {
                 "res/textures/filled/filled_h_fg.png",
                 "cc.Texture2D"
             ],
-            "770bf63f-6722-4d9a-9aa9-3009ba65be29": [
-                "res/textures/filled/filled_round_fg.png",
-                "cc.Texture2D"
-            ],
             "c1d929f9-82db-4326-9436-3c1a0cb9ba50": [
                 "res/textures/filled/filled_v_fg.png",
                 "cc.Texture2D"
             ],
-            "e2f89568-b554-41b7-a21a-b3a03b3c5431": [
-                "res/textures/sliced/ui_panel.png",
+            "770bf63f-6722-4d9a-9aa9-3009ba65be29": [
+                "res/textures/filled/filled_round_fg.png",
                 "cc.Texture2D"
             ],
-            "6f932e68-4c0f-4291-9759-852e509d2e83": [
-                "res/imported/particle/smoke.png",
+            "e2f89568-b554-41b7-a21a-b3a03b3c5431": [
+                "res/textures/sliced/ui_panel.png",
                 "cc.Texture2D"
             ],
             "c6e4d9aa-bab9-4b01-974e-1ba6747af9c1": [
@@ -937,28 +933,32 @@ _CCSettings = {
                 "res/textures/tiled/barBg.png",
                 "cc.Texture2D"
             ],
-            "2d36c0f8-75c0-4569-8c3b-6c0676340644": [
-                "res/textures/tiled/barFg.png",
-                "cc.Texture2D"
-            ],
             "2584024f-936a-4325-95f4-38570796a81c": [
                 "res/textures/tiled/ground.png",
+                "cc.Texture2D"
+            ],
+            "2d36c0f8-75c0-4569-8c3b-6c0676340644": [
+                "res/textures/tiled/barFg.png",
                 "cc.Texture2D"
             ],
             "7aff329d-5d53-4659-8a29-5403bcc104a0": [
                 "res/textures/ui/style2/btn_normal.png",
                 "cc.Texture2D"
             ],
+            "6f932e68-4c0f-4291-9759-852e509d2e83": [
+                "res/imported/particle/smoke.png",
+                "cc.Texture2D"
+            ],
             "5c4847ba-7145-41ca-b78a-26a44dbda85b": [
                 "res/textures/ui/style2/bg.png",
                 "cc.Texture2D"
             ],
-            "dadab157-3ee8-4617-a29c-54d5b4fb7aa8": [
-                "res/textures/sliced/button_empty.png",
-                "cc.Texture2D"
-            ],
             "e832cb5b-fd18-4945-8b55-7e620519a260": [
                 "res/textures/ui/style2/btn_pressed.png",
+                "cc.Texture2D"
+            ],
+            "dadab157-3ee8-4617-a29c-54d5b4fb7aa8": [
+                "res/textures/sliced/button_empty.png",
                 "cc.Texture2D"
             ],
             "6ee311af-2e56-480a-98dd-ee63e3d5b24c": [
@@ -969,28 +969,24 @@ _CCSettings = {
                 "res/textures/ui/style1/btn_play.png",
                 "cc.Texture2D"
             ],
-            "1d99a296-6ea0-4346-bd03-1b13c518f3aa": [
-                "res/textures/ui/style1/add.png",
-                "cc.Texture2D"
-            ],
             "c5faabeb-c5b8-4134-8226-44164d39aa37": [
                 "res/textures/ui/style1/attention.png",
+                "cc.Texture2D"
+            ],
+            "1d99a296-6ea0-4346-bd03-1b13c518f3aa": [
+                "res/textures/ui/style1/add.png",
                 "cc.Texture2D"
             ],
             "69eedb09-a9f2-4027-8d1d-d694f811cd82": [
                 "res/textures/ui/style1/question.png",
                 "cc.Texture2D"
             ],
-            "791ab0b9-e42f-43ec-b3f3-9fd72ea55a61": [
-                "res/textures/ui/style1/cancel.png",
-                "cc.Texture2D"
-            ],
-            "6b4faed5-abc3-4a77-af9d-35ed67a5a48b": [
-                "res/textures/content.png",
-                "cc.Texture2D"
-            ],
             "53e8405d-866f-4771-921d-1c059e8849ce": [
                 "res/textures/ui/style2/scrollview_bar.png",
+                "cc.Texture2D"
+            ],
+            "791ab0b9-e42f-43ec-b3f3-9fd72ea55a61": [
+                "res/textures/ui/style1/cancel.png",
                 "cc.Texture2D"
             ],
             "271269d4-6d55-40c8-b0bc-13b75a920423": [
@@ -1001,8 +997,8 @@ _CCSettings = {
                 "res/textures/ui/style2/scrollview_bg.png",
                 "cc.Texture2D"
             ],
-            "83e05166-d611-452a-ac2f-4cbf5c3d5a06": [
-                "res/atlas/sheep.png",
+            "6b4faed5-abc3-4a77-af9d-35ed67a5a48b": [
+                "res/textures/content.png",
                 "cc.Texture2D"
             ],
             "bb17971e-c86f-4b8f-ab66-84baf1704b64": [
@@ -1065,16 +1061,20 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "18041d7f-7c6a-47bd-ab6f-7a18b404a214": [
-                "res/textures/monster-icon/PurpleMonster.png",
+            "83e05166-d611-452a-ac2f-4cbf5c3d5a06": [
+                "res/atlas/sheep.png",
+                "cc.Texture2D"
+            ],
+            "08c1edea-46d4-41de-99dd-4f8b7f6b43b3": [
+                "res/textures/monster-icon/GreenMonster.png",
                 "cc.Texture2D"
             ],
             "3229feab-b062-4c75-ad91-b962602def21": [
                 "res/textures/ui/style1/panelBG.png",
                 "cc.Texture2D"
             ],
-            "08c1edea-46d4-41de-99dd-4f8b7f6b43b3": [
-                "res/textures/monster-icon/GreenMonster.png",
+            "18041d7f-7c6a-47bd-ab6f-7a18b404a214": [
+                "res/textures/monster-icon/PurpleMonster.png",
                 "cc.Texture2D"
             ],
             "c09681b1-0c3e-4794-b687-1756e646d970": [
@@ -1163,12 +1163,12 @@ _CCSettings = {
                 "res/imported/ground.png",
                 "cc.Texture2D"
             ],
-            "c5a5b09c-e012-4da8-a31b-d1f541f64bf4": [
-                "res/textures/sheep/sheep_run_1.png",
-                "cc.Texture2D"
-            ],
             "1ba0dabd-fc65-4172-adee-e9167c6eb9ad": [
                 "res/textures/sheep/sheep_run_2.png",
+                "cc.Texture2D"
+            ],
+            "c5a5b09c-e012-4da8-a31b-d1f541f64bf4": [
+                "res/textures/sheep/sheep_run_1.png",
                 "cc.Texture2D"
             ],
             "7f97cb41-6ad1-45f7-afd9-3f9428490731": [
@@ -1183,16 +1183,6 @@ _CCSettings = {
         "internal": {
             "9bbda31e-ad49-43c9-aaf2-f7d9896bac69": [
                 "image/default_panel",
-                "cc.SpriteFrame",
-                1
-            ],
-            "5c3bb932-6c3c-468f-88a9-c8c61d458641": [
-                "image/default_scrollbar_vertical",
-                "cc.SpriteFrame",
-                1
-            ],
-            "5fe5dcaa-b513-4dc5-a166-573627b3a159": [
-                "image/default_scrollbar_vertical_bg",
                 "cc.SpriteFrame",
                 1
             ],
@@ -1211,6 +1201,16 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "5c3bb932-6c3c-468f-88a9-c8c61d458641": [
+                "image/default_scrollbar_vertical",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5fe5dcaa-b513-4dc5-a166-573627b3a159": [
+                "image/default_scrollbar_vertical_bg",
+                "cc.SpriteFrame",
+                1
+            ],
             "8cdb44ac-a3f6-449f-b354-7cd48cf84061": [
                 "image/default_sprite",
                 "cc.SpriteFrame",
@@ -1225,24 +1225,24 @@ _CCSettings = {
                 "image/default_panel.png",
                 "cc.Texture2D"
             ],
-            "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": [
-                "image/default_scrollbar_vertical.png",
-                "cc.Texture2D"
-            ],
-            "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": [
-                "image/default_scrollbar_vertical_bg.png",
-                "cc.Texture2D"
-            ],
-            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
-                "image/default_btn_pressed.png",
-                "cc.Texture2D"
-            ],
             "e851e89b-faa2-4484-bea6-5c01dd9f06e2": [
                 "image/default_btn_normal.png",
                 "cc.Texture2D"
             ],
             "71561142-4c83-4933-afca-cb7a17f67053": [
                 "image/default_btn_disabled.png",
+                "cc.Texture2D"
+            ],
+            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
+                "image/default_btn_pressed.png",
+                "cc.Texture2D"
+            ],
+            "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": [
+                "image/default_scrollbar_vertical.png",
+                "cc.Texture2D"
+            ],
+            "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": [
+                "image/default_scrollbar_vertical_bg.png",
                 "cc.Texture2D"
             ],
             "6e056173-d285-473c-b206-40a7fff5386e": [
